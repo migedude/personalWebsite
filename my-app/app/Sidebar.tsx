@@ -2,8 +2,12 @@ export default function Sidebar() {
   return (
     <div className="flex flex-col gap-6 text-black pr-4">
       {/* Profile Image Dummy */}
-      <div className="w-40 h-40 rounded-full bg-gray-200 overflow-hidden relative border border-gray-300 shadow-sm flex items-center justify-center">
-        <span className="text-black text-sm">Profile Image</span>
+      <div className="w-60 h-60 rounded-full overflow-hidden relative border border-gray-300 shadow-sm">
+        <img 
+          src="/profile.jpeg" 
+          alt="Miguel Contreras" 
+          className="w-full h-full object-cover" 
+        />
       </div>
 
       {/* Name & Bio */}

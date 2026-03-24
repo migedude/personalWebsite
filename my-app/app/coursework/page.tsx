@@ -2,7 +2,7 @@ export default function Coursework() {
   return (
     <div className="flex flex-col gap-10 w-full mb-20 text-black">
       <div>
-        <h1 className="text-4xl font-bold mb-10 text-black">Coursework</h1>
+        <h1 className="text-4xl font-bold mb-10 text-black border-b-2 border-gray-200 pb-2">Computer Science and Data Science Coursework</h1>
         
         <div className="mb-10">
           <p className="text-2xl font-semibold mb-3 text-black">Spring 2026:</p>
@@ -40,6 +40,17 @@ export default function Coursework() {
         </div>
 
       </div>
+
+      <div>
+        <h1 className="text-4xl font-bold mb-10 text-black border-b-2 border-gray-200 pb-2">Education Coursework</h1>
+        <ul className="list-disc ml-8 text-xl space-y-2 text-black">
+          <li><strong>Colwrit 145:</strong> Creating Materials for English Language Education</li>
+          <li><strong>Educ W161:</strong> Digital Learning Environments</li>
+          <li><strong>Colwrit 121:</strong> Issues in Teaching English Internationally</li>
+        </ul>
+      </div>
+
     </div>
+    
   );
 }

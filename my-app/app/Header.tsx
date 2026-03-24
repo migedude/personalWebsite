@@ -10,7 +10,7 @@ const Header = () => {
     <header className="fixed top-0 left-0 w-full z-50 px-8 py-4 flex items-center justify-between backdrop-blur-md border-b border-white/10 text-black">
       
       {/* Navigation Links */}
-      <ul className="flex gap-8 text-sm font-medium">
+      <ul className="flex gap-8 text-2xl font-bold">
         <li>
           <Link 
             href="/"
@@ -49,7 +49,7 @@ const Header = () => {
       <div className="flex items-center gap-6">
         <button 
             onClick={() => window.open(resumeLink, '_blank')}
-            className="hover:text-white transition-colors cursor-pointer bg-transparent border-none outline-none focus:outline-none"
+            className="text-2xl font-bold hover:text-white transition-colors cursor-pointer bg-transparent border-none outline-none focus:outline-none"
         >
           Resume
         </button>

@@ -33,7 +33,7 @@ export default function RootLayout({
         <Header />
 
         {/* Global Layout Container (Pushed below header) */}
-        <div className="flex max-w-7xl mx-auto w-full px-8 pt-32 pb-20">
+        <div className="flex max-w-[100rem] mx-auto w-full px-8 pt-32 pb-20">
           
           {/* Static Sidebar on Left */}
           <aside className="hidden md:block w-[280px] fixed h-[calc(100vh-8rem)] overflow-y-auto">
