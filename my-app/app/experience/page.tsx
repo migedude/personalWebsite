@@ -3,7 +3,7 @@ export default function Experience() {
     <div className="flex flex-col gap-10 w-full mb-20">
       <div>
         <p className="text-xl leading-relaxed text-black max-w-[1000px] mb-12">
-          As a current sophomore, I have gained some experience through industry roles, undergraduate research, and
+          As a undergraduate, I have gained some experience through industry roles, undergraduate research, and
           other personal projects I have worked on! Here are some of these experiences.
         </p>
         
@@ -12,10 +12,25 @@ export default function Experience() {
         <div className="mb-12">
           <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2 text-black">
             <div>
+              <h3 className="text-2xl font-bold">Software Engineer Intern</h3>
+              <p className="text-xl italic text-gray-800">Amazon — Redmond, WA</p>
+            </div>
+            <p className="text-xl font-medium text-gray-800 mt-1 md:mt-0">May 2026 – Aug 2026</p>
+          </div>
+          <ul className="list-disc ml-8 text-xl space-y-2 text-black mt-4">
+            <li>Architected and delivered an E2E SDK observability platform spanning a CloudWatch data-ingestion pipeline, AWS Lambda, and React, giving 8+ teams real-time visibility into SDK health across all external partners.</li>
+            <li>Built a full-stack internal dashboard in React (Harmony) with Midway/SSO auth, backed by an AWS Lambda BFF service, serving as the single source of truth for engineers monitoring SDK customer health.</li>
+            <li>Built a production pipeline ingesting gateway request logs into CloudWatch, producing real-time views of API call volume, error attribution, and SDK version adoption grouped by customer account and operation.</li>
+          </ul>
+        </div>
+
+        <div className="mb-12">
+          <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2 text-black">
+            <div>
               <h3 className="text-2xl font-bold">Software Engineer (Contract)</h3>
               <p className="text-xl italic text-gray-800">Google — Mountain View, CA</p>
             </div>
-            <p className="text-xl font-medium text-gray-800 mt-1 md:mt-0">Aug 2026 – Present</p>
+            <p className="text-xl font-medium text-gray-800 mt-1 md:mt-0">Jan 2026 – May 2026</p>
           </div>
           <ul className="list-disc ml-8 text-xl space-y-2 text-black mt-4">
             <li>Built and deployed a GenAI application using Google AI Studio, Cloud Run, and AlloyDB (via Auth Proxy) to validate an end-to-end reference architecture.</li>

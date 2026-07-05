@@ -3,7 +3,7 @@
 import Link from 'next/link';
 
 const Header = () => {
-  const resumeLink = "/Contreras_Miguel_Resume_2025.pdf"
+  const resumeLink = "/MiguelContrerasResume.pdf"
   const linkedinLink = "https://www.linkedin.com/in/miguelacontreras";
 
   return (

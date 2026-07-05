@@ -14,7 +14,7 @@ export default function Sidebar() {
       <div>
         <h2 className="text-2xl font-bold mb-2">Miguel Contreras</h2>
         <p className="text-sm text-black leading-relaxed">
-          Undergraduate at UC Berkeley studying Computer Science. Interested in the intersection of Computer Science and Education.
+          Undergraduate at UC Berkeley studying Computer Science. Interested in the intersection of Computer Science, Education and Machine Learning.
         </p>
       </div>
 
