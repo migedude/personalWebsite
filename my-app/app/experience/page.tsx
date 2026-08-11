@@ -18,9 +18,9 @@ export default function Experience() {
             <p className="text-xl font-medium text-gray-800 mt-1 md:mt-0">May 2026 – Aug 2026</p>
           </div>
           <ul className="list-disc ml-8 text-xl space-y-2 text-black mt-4">
-            <li>Architected and delivered an E2E SDK observability platform spanning a CloudWatch data-ingestion pipeline, AWS Lambda, and React, giving 8+ teams real-time visibility into SDK health across all external partners.</li>
-            <li>Built a full-stack internal dashboard in React (Harmony) with Midway/SSO auth, backed by an AWS Lambda BFF service, serving as the single source of truth for engineers monitoring SDK customer health.</li>
-            <li>Built a production pipeline ingesting gateway request logs into CloudWatch, producing real-time views of API call volume, error attribution, and SDK version adoption grouped by customer account and operation.</li>
+            <li>Shipped the first health/usage dashboard for the Amazon Leo Enterprise SDK, collapsing 20+ manual CloudWatch/Athena queries across 3 accounts and regions into a sub-2s load over 100+ APIs.</li>
+            <li>Built real-time views over 3M+ gateway request log rows into CloudWatch, producing real-time views of API call volume, error attribution, and SDK version adoption by customer account and operation.</li>
+            <li>Shipped an agent that triages a CloudWatch alarm on the SDK's request path, classifying the failure to its layer (client, gateway, backing service), tracing it to the owning service and code, and checking for an existing ticket before drafting one.</li>
           </ul>
         </div>
 
@@ -33,23 +33,22 @@ export default function Experience() {
             <p className="text-xl font-medium text-gray-800 mt-1 md:mt-0">Jan 2026 – May 2026</p>
           </div>
           <ul className="list-disc ml-8 text-xl space-y-2 text-black mt-4">
-            <li>Built and deployed a GenAI application using Google AI Studio, Cloud Run, and AlloyDB (via Auth Proxy) to validate an end-to-end reference architecture.</li>
-            <li>Optimized developer workflows end-to-end; documented setup/deployment blockers, documentation gaps, and third-party tool integration feasibility (Claude Code, Lovable) in a structured friction log with actionable improvement recommendations.</li>
+            <li>Evaluated Google's GenAI tools (AI Studio, AlloyDB, Cloud Run) by building a full-stack app to surface developer friction, filing issues to Google's source repos and presenting findings to engineering teams.</li>
           </ul>
         </div>
 
         <div className="mb-12">
           <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2 text-black">
             <div>
-              <h3 className="text-2xl font-bold">Software Engineering Intern</h3>
+              <h3 className="text-2xl font-bold">Software Engineer Intern</h3>
               <p className="text-xl italic text-gray-800">Amazon — Redmond, WA</p>
             </div>
             <p className="text-xl font-medium text-gray-800 mt-1 md:mt-0">May 2025 – Aug 2025</p>
           </div>
           <ul className="list-disc ml-8 text-xl space-y-2 text-black mt-4">
-            <li>Built automated data retention query system reducing manual investigative processing from 48-72 hours to 5-10 minutes globally.</li>
-            <li>Implemented LLM-powered natural-language-to-SQL translation via AWS Bedrock + Claude 3.5.</li>
-            <li>Integrated multiple AWS services (Athena, S3, Glue, Bedrock) into a secure, compliance-driven architecture.</li>
+            <li>Architected and delivered a full-stack data retention query management system that transformed manual 48–72 hour investigative workflows into automated processes completing in 5–10 minutes, serving global customers.</li>
+            <li>Deployed and fine-tuned LLM-powered applications on AWS Bedrock to translate natural language into optimized SQL queries, using retrieval-augmented generation (RAG) for search and data access.</li>
+            <li>Integrated 4+ AWS services (Athena, S3, Bedrock, GLUE) into a secure, production-ready architecture with real-time query monitoring, automated file handling, cross-account authentication, and compliance with international data protection regulations.</li>
           </ul>
         </div>
 
@@ -57,13 +56,13 @@ export default function Experience() {
           <div className="flex flex-col md:flex-row md:justify-between md:items-baseline mb-2 text-black">
             <div>
               <h3 className="text-2xl font-bold">Data Analyst</h3>
-              <p className="text-xl italic text-gray-800">BayFC (Professional Soccer Team) — San Jose, CA</p>
+              <p className="text-xl italic text-gray-800">Bay FC — National Women's Soccer League — San Jose, CA</p>
             </div>
-            <p className="text-xl font-medium text-gray-800 mt-1 md:mt-0">Feb 2025 – May 2025</p>
+            <p className="text-xl font-medium text-gray-800 mt-1 md:mt-0">Jan 2025 – May 2025</p>
           </div>
           <ul className="list-disc ml-8 text-xl space-y-2 text-black mt-4">
-            <li>Applied PCA and KMeans clustering to classify player tactical archetypes supporting coaching strategy decisions.</li>
-            <li>Engineered features from match tracking data to support performance modeling and cluster interpretability.</li>
+            <li>Built an unsupervised pipeline applying PCA (15 components, 89% variance) and KMeans on 20+ player tracking features to classify players into 6 tactical archetypes at 0.82 silhouette.</li>
+            <li>Engineered player-level features (off-ball movement, sprint patterns, line-breaking actions) to predict user engagement-like metrics, aligning with CTR/CVR-style prediction and ranking tasks.</li>
           </ul>
         </div>
       

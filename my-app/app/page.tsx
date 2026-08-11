@@ -24,7 +24,7 @@ export default function Home() {
       <div id="aboutMe">
         <div className="flex flex-col gap-6 text-xl max-w-[1000px] leading-relaxed text-black">
           <p>
-            I am a first-generation college student from Salinas, California, and a 2nd-year undergraduate at the University of California, Berkeley double majoring in Computer Science and Data Science, with a minor in Education.
+            I am a first-generation college student from Salinas, California, and a 3rd-year undergraduate at the University of California, Berkeley double majoring in Computer Science and Data Science, with a minor in Education.
           </p>
           <p>
             My interests broadly lie in the intersection of Computer Science and Education, technology/AI policy, and Computer Vision/Robotics. My previous research was on Coursewise with the Computional Approaches to Human Learning Lab in Berkeley's Graduate School of Education.

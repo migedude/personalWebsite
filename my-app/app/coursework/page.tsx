@@ -5,6 +5,14 @@ export default function Coursework() {
         <h1 className="text-4xl font-bold mb-10 text-black border-b-2 border-gray-200 pb-2">Computer Science and Data Science Coursework</h1>
         
         <div className="mb-10">
+          <p className="text-2xl font-semibold mb-3 text-black">Fall 2026:</p>
+          <ul className="list-disc ml-8 text-xl space-y-2 text-black">
+            <li><strong>COMPSCI 189:</strong> Introduction to Machine Learning</li>
+            <li><strong>Data C140:</strong> Probability for Data Science</li>
+          </ul>
+        </div>
+
+        <div className="mb-10">
           <p className="text-2xl font-semibold mb-3 text-black">Spring 2026:</p>
           <ul className="list-disc ml-8 text-xl space-y-2 text-black">
             <li><strong>CS61C:</strong> Great Ideas in Computer Architecture</li>
